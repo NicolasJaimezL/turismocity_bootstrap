@@ -43,6 +43,55 @@
             </div>
         </nav>
     </header>
+    <main>
+        <form class="row g-3 form_contacto">
+            <h2>Formulario de contacto</h2>
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputLastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputLastName" required>
+            </div>
+            <div class="col-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" required placeholder="john@example.com">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">C.P.</label>
+                <input inputmode="numeric" pattern="[0-9]*" class="form-control" id="inputZip" required>
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Dejanos tu mensaje y te responderemos a la
+                    brevedad</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Deseo recibir ofertas por correo
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </main>
     <footer>
         <div class="grid_footer">
             <div class="infozona_footer">

@@ -1,10 +1,8 @@
 .bg_blue {
   background-color: #1d4d8b;
 }
-header {
-  width: 100%;
-}
 
+/* index */
 .video-container {
   position: absolute;
   z-index: -1;
@@ -65,11 +63,20 @@ ul li {
 .infozona_footer figure img {
   width: 11rem;
 }
+/* section promociones */
 .card-group {
   margin: 1rem;
 }
 .card {
   margin: 1rem;
+}
+/* contacto */
+.form_contacto {
+  width: 100%;
+  padding: 3rem;
+}
+#exampleFormControlTextarea1 {
+  resize: none;
 }
 @media screen and (max-width: 600px) {
   video {
