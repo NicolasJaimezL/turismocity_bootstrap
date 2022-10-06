@@ -4,9 +4,6 @@
 header {
   width: 100%;
 }
-body {
-  color: #ffffff;
-}
 
 .video-container {
   position: absolute;
@@ -38,6 +35,7 @@ h1 {
 /* footer */
 footer {
   background-color: #2f81d3;
+  color: #ffffff;
   width: 100%;
   padding-top: 1rem;
   padding-left: 1rem;
@@ -67,11 +65,17 @@ ul li {
 .infozona_footer figure img {
   width: 11rem;
 }
+.card-group {
+  margin: 1rem;
+}
+.card {
+  margin: 1rem;
+}
 @media screen and (max-width: 600px) {
   video {
     display: none;
   }
-  main {
+  .main_index {
     background-image: url(../images/avion.jpg);
     background-size: cover;
   }
