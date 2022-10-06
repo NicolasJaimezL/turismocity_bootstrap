@@ -54,8 +54,6 @@ footer {
 }
 .redes_footer ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 ul li {
   list-style: none;
@@ -63,6 +61,10 @@ ul li {
 .infozona_footer figure img {
   width: 11rem;
 }
+.redes_footer ul {
+  padding: 0px;
+}
+
 /* section promociones */
 .card-group {
   margin: 1rem;
@@ -90,9 +92,14 @@ ul li {
     font-size: 3rem;
   }
   footer {
-    padding: 0rem;
+    padding: 1rem;
   }
   .grid_footer {
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  /* section destinos */
+  .carousel-caption {
+    font-size: 0.8rem;
   }
 }
